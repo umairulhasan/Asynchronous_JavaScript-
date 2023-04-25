@@ -1,10 +1,10 @@
 import React from 'react';
-
+import Asyc from './Asynchronous';
 
 function App() {
   return (
     <div >
-      <h1> Hello</h1>
+      <Asyc/>
     </div>
   );
 }

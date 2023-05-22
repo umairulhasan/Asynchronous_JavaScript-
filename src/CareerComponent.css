@@ -1,0 +1,80 @@
+.career-component {
+    padding: 20px;
+  }
+  
+  .job-card {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .job-card h3 {
+    margin-top: 0;
+  }
+  
+  .job-card button {
+    background-color: #0077c2;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .job-card button:hover {
+    background-color: #005fa6;
+  }
+  
+  .apply-form {
+    margin-top: 20px;
+  }
+  
+  .apply-form h2 {
+    margin-bottom: 10px;
+  }
+  
+  .apply-form form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .apply-form label {
+    font-weight: bold;
+  }
+  
+  .apply-form input[type='text'],
+  .apply-form input[type='email'],
+  .apply-form input[type='tel'],
+  .apply-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .apply-form input[type='file'] {
+    display: none;
+  }
+  
+  .apply-form input[type='file'] + label {
+    display: inline-block;
+    background-color: #0077c2;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .apply-form button[type='submit'] {
+    background-color: #0077c2;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .apply-form button[type='submit']:hover {
+    background-color: #005fa6;
+  }

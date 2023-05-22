@@ -1,0 +1,60 @@
+.contact-component {
+    text-align: center;
+  }
+  
+  .contact-heading {
+    font-size: 1.5rem;
+    margin-top: 0;
+  }
+  
+  .contact-subheading {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .contact-details {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .contact-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1rem;
+  }
+  
+  .contact-item i {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-item p {
+    margin: 0;
+    font-size: 1.2rem; /* Adjust the font size as desired */
+  }
+  .contact-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* Your styles for the contact details container */
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    /* Your styles for each contact item */
+  }
+  
+  .contact-icon {
+    font-size: 24px;
+    margin-right: 8px;
+    /* Your styles for the contact icon */
+  }
+  
+  .contact-text {
+    font-size: 16px;
+    /* Your styles for the contact text */
+  }
